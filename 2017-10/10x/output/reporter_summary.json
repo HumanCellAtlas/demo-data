@@ -1,0 +1,8 @@
+{
+    "hg19_chr21_10x_reference_conf_mapped_deduped_effective_barcode_diversity": 365.1679790026247, 
+    "hg19_chr21_10x_reference_conf_mapped_deduped_effective_umi_diversity": 373.0, 
+    "hg19_chr21_10x_reference_transcriptome_conf_mapped_deduped_reads_frac": 0.031083333333333334, 
+    "multi_conf_mapped_deduped_effective_barcode_diversity": 365.1679790026247, 
+    "multi_conf_mapped_deduped_effective_umi_diversity": 373.0, 
+    "multi_transcriptome_conf_mapped_deduped_reads_frac": 0.031083333333333334
+}
