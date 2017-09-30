@@ -5,7 +5,7 @@ if [[ $# -eq 0 ]] ; then
     exit 0
 fi
 
-creds=$1
+hca staging select $1
 
 files="
 ERR1630013.fastq.gz
@@ -111,5 +111,5 @@ ERR1631100.fastq.gz
 "
 
 for file in $files ; do
-    stage_file.py -t $file input_file.txt $creds
+    hca staging upload --target-filename $file input_file.txt $creds
 done
