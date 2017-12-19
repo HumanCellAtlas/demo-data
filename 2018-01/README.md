@@ -15,7 +15,7 @@ This directory contains materials for the ingest team's demo of ingesting a Smar
 - `invalid_seq_chars/` - Directory containing r1 and r2 dummy reads with invalid sequence characters
 - `wrong_number_lines/` - Directory containing r1 and r2 dummy reads with the last 2 lines removed (so the last fastq record is missing second header line and quality line) simulating truncated files
 
-#### `10x_v2/` directory:
+### `10x_v2/` directory:
 
 - `metadata_spleen_20171115_DOESNT_TRIGGER.xlsx` - A metadata spreadsheet valid against metadata schema version 4.4.0-4.5.0. "10x_v2" has been changed to "10x_v1" to avoid triggering Mint Team workflows.
 - `metadata_spleen_20171115_FREEZE.xlsx` - A metadata spreadsheet valid against metadata schema version 4.4.0-4.5.0. Contain references to "10x_v2" which will trigger Mint Team workflows. Please avoid using this file unless specifically testing Mint Team workflows.
