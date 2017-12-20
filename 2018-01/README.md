@@ -4,7 +4,7 @@ This directory contains materials for the ingest team's demo of ingesting a Smar
 
 ### `SmartSeq2/` directory includes:
 
-- `Q4DemoSS2Metadata_VALID.xlsx` - A metadata spreadsheet that should validate against metadata schema version 4.4.0-4.5.0
+- `Q4DemoSS2Metadata_VALID.xlsx` - A metadata spreadsheet that should validate against metadata schema version 4.4.0-4.6.1
 - `Q4DemoSS2Metadata_INVALID_1.xlsx` - A metadata spreadsheet that should FAIL validation (1 error) against metadata schema version 4.4.0-4.6.1
   - Is missing the required field `is_living` in the donor tab
 - `Q4DemoSS2Metadata_INVALID_2.xlsx` - A metadata spreadsheet that should FAIL validation (2 errors) against metadata schema version 4.4.0-4.6.1
@@ -17,8 +17,8 @@ This directory contains materials for the ingest team's demo of ingesting a Smar
 
 ### `10x_v2/` directory:
 
-- `metadata_spleen_20171115_DOESNT_TRIGGER.xlsx` - A metadata spreadsheet valid against metadata schema version 4.4.0-4.5.0. "10x_v2" has been changed to "10x_v1" to avoid triggering Mint Team workflows.
-- `metadata_spleen_20171115_FREEZE.xlsx` - A metadata spreadsheet valid against metadata schema version 4.4.0-4.5.0. Contain references to "10x_v2" which will trigger Mint Team workflows. Please avoid using this file unless specifically testing Mint Team workflows.
+- `metadata_spleen_20171115_DOESNT_TRIGGER.xlsx` - A metadata spreadsheet valid against metadata schema version 4.4.0-4.6.1. "10x_v2" has been changed to "10x_v1" to avoid triggering Mint Team workflows.
+- `metadata_spleen_20171115_FREEZE.xlsx` - A metadata spreadsheet valid against metadata schema version 4.4.0-4.6.1. Contain references to "10x_v2" which will trigger Mint Team workflows. Please avoid using this file unless specifically testing Mint Team workflows.
 
 ### `templates/` directory includes:
 
