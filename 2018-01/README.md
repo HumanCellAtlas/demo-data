@@ -22,5 +22,5 @@ This directory contains materials for the ingest team's demo of ingesting a Smar
 
 ### `templates/` directory includes:
 
-- `Empty_template_v4.4.0_spreadsheet_PROJECTTAB.xlsx` - An empty metadata template spreadsheet valid against metadata schema version 4.4.0-4.6.1. Contains the project tab and is used to upload metadata when the project doesn't exist yet.
-- `Empty_template_v4.4.0_spreadsheet_NOPROJECTTAB.xlsx` - An empty metadata template spreadsheet valid against metadata schema version 4.4.0-4.6.1. Does not contain the project tab and is used to upload a complete set of metadata to an already existing project.
+- `Empty_template_v4.6.1_spreadsheet_PROJECTTAB.xlsx` - An empty metadata template spreadsheet valid against metadata schema version 4.4.0-4.6.1. Contains the project tab and is used to upload metadata when the project doesn't exist yet.
+- `Empty_template_v4.6.1_spreadsheet_NOPROJECTTAB.xlsx` - An empty metadata template spreadsheet valid against metadata schema version 4.4.0-4.6.1. Does not contain the project tab and is used to upload a complete set of metadata to an already existing project.
