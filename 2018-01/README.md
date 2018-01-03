@@ -6,7 +6,7 @@ This directory contains materials for the ingest team's demo of ingesting a Smar
 
 - `Q4DemoSS2Metadata_VALID.xlsx` - A metadata spreadsheet that should validate against metadata schema version 4.4.0-4.6.1
 - `Q4DemoSS2Metadata_INVALID_1.xlsx` - A metadata spreadsheet that should FAIL validation (1 error) against metadata schema version 4.4.0-4.6.1
-  - Is missing the required field `is_living` in the donor tab
+  - Is missing the required field `ncbi_taxon_id` in the donor tab
 - `Q4DemoSS2Metadata_INVALID_2.xlsx` - A metadata spreadsheet that should FAIL validation (2 errors) against metadata schema version 4.4.0-4.6.1
   - Is missing the required field `is_living` in the donor tab
   - Has an incorrect column/field name in the file tab: `format` should be `file_format`
