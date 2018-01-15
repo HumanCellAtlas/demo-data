@@ -12,7 +12,7 @@ This directory contains materials for the ingest team's demo of ingesting a Smar
   - Has an incorrect column/field name in the file tab: `format` should be `file_format`
 - `R1.fastq.gz` - The r1 dummy reads
 - `R2.fastq.gz` - The r2 dummy reads
-- `invalid_seq_chars/` - Directory containing r1 and r2 dummy reads with invalid sequence characters
+- `invalid_seq_chars/` - Directory containing r1 and r2 dummy reads with invalid sequence characters in the r1 file (chars `RR` at the end of the first sequence)
 - `wrong_number_lines/` - Directory containing r1 and r2 dummy reads with the last 2 lines removed (so the last fastq record is missing second header line and quality line) simulating truncated files
 
 ### `10x_v2/` directory:
